@@ -2,7 +2,7 @@
 Assisted Refinement Network Based on Channel Information Interaction for Camouflaged and Salient Object Detection
 
 
-**Authors:** Kuan Wang, Hao Sun, Tian-Zhu Xiang, Xiao Wang and Xiaochun Cao
+**Authors:** Kuan Wang, Meng-ge Lu, Yanjun Qin and Xiaoming Tao
 
 ------
 ------
@@ -34,7 +34,7 @@ others packages can be found at requirement.txt
 
   + You can find our [Polyp prediction results (Google Drive)](https://drive.google.com/file/d/1jY4_BzgSZzjrtztGtZt9_PEIqJaFfO0L/view?usp=sharing) at the following link.
 
-## Experiments
+## Experimental results
 
 <img width="1175" height="832" alt="image" src="https://github.com/user-attachments/assets/7cf0b2b0-72d9-4c37-afbb-2d33293f8845" />
 
