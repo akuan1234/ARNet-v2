@@ -1,2 +1,43 @@
 # ARNet-v2
 Assisted Refinement Network Based on Channel Information Interaction for Camouflaged and Salient Object Detection
+
+
+**Authors:** Kuan Wang, Hao Sun, Tian-Zhu Xiang, Xiao Wang and Xiaochun Cao
+
+------
+------
+## Our motivation!
+
+<img width="1171" height="415" alt="image" src="https://github.com/user-attachments/assets/8b92f28d-2bfe-45a4-a249-e89eb1c63b1f" />
+
+## Overview
+
+Camouflaged Object Detection (COD) stands as a significant challenge in computer vision, dedicated to identifying and segmenting objects visually highly integrated with their backgrounds. While current mainstream methods have made progress in cross-layer feature fusion, they generally neglect leveraging cross-channel information differences within the same-layer features. Addressing this critical issue, we propose an Assisted Refinement Network (ARNet) with channel information interaction, achieving feature optimization through a dual-dimensional collaborative decoding architecture. Specifically, our network incorporates three innovations: First, we design the Channel Information Interaction Module (CIIM), pioneering a bidirectional horizontal-vertical feature integration mechanism at the channel dimension. This captures cross-channel complementary information through feature splitting reorganization. Second, to enhance semantic consistency during decoding, we introduce the Boundary Extraction (BE) module and Region Extraction (RE) module. These generate boundary priors and object localization maps, respectively, and employ Hybrid Guided Attention (HGA) within CIIM to jointly calibrate decoded features for boundary and spatial localization. Third, we design a Multi-scale Enhancement (MSE) module employing a three-branch multi-scale convolution strategy to simultaneously expand the receptive field and enrich contextual feature representations. Extensive experiments across four COD benchmark datasets validate ARNet's effectiveness and state-of-the-art performance. We further transfer it to the Salient Object Detection (SOD) task and demonstrate our method's exceptional adaptability and versatility across downstream tasks including polyp segmentation, transparent object detection, and industrial/road defect detection.
+
+<img width="1166" height="623" alt="image" src="https://github.com/user-attachments/assets/39a22bb7-f7ed-4a07-a239-2173d3482d99" />
+
+## Environment
+python = Python 3.9
+
+others packages can be found at requirement.txt
+
+## Materials
+  + You can find the [training and test datasets](https://github.com/DengPingFan/SINet/) at the following links.
+
+  + You can find the [SMT weights (Google Drive)](https://drive.google.com/file/d/1F8E_Ca6nvusNjp0SqWBVyImWsUSMTSN1/view?usp=sharing) at the following link.  
+
+  + You can find the [pre-trained weights of our model (Google Drive)](https://drive.google.com/file/d/18xlY7ZtTwPk7MCdYnGMIpj1hafc0GZBq/view?usp=sharing) at the following link.  
+
+  + You can find our [COD prediction results (Google Drive)](https://drive.google.com/file/d/1mLujes7kTj_6BZrdvfTEGhk4EzN6dttR/view?usp=sharing) at the following link.  
+
+  + You can find our [SOD prediction results (Google Drive)](https://drive.google.com/file/d/1yM52z75vYh058-c00wG7dfgtd8-2oVpL/view?usp=sharing) at the following link.  
+
+  + You can find our [Polyp prediction results (Google Drive)](https://drive.google.com/file/d/1jY4_BzgSZzjrtztGtZt9_PEIqJaFfO0L/view?usp=sharing) at the following link.
+
+## Experiments
+
+<img width="1175" height="832" alt="image" src="https://github.com/user-attachments/assets/7cf0b2b0-72d9-4c37-afbb-2d33293f8845" />
+
+<img width="1174" height="456" alt="image" src="https://github.com/user-attachments/assets/fa41ad1d-ec99-4160-9b80-018a60c68035" />
+
+
