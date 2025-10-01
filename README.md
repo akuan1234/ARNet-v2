@@ -47,7 +47,9 @@ Please organize your files as follows to run the script without any modification
 
 ```
 .
-├── evaluation.py
+├── eval
+├── evaluation
+│   └── evaluation.py
 ├── TestDataset
 │   └── NC4K
 │       └── GT
