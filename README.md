@@ -9,14 +9,15 @@
 - [Our Motivation](#-our-motivation)
 - [Overview](#-overview)
 - [Environment](#-environment)
-- [Materials & Evaluation](#materials-evaluation)
+- [Materials and Evaluation](#materials-and-evaluation)
 - [Experimental Results](#-experimental-results)
 
 ---
 
 ## 🎯 Our Motivation
 
-<img width="1171" alt="image" src="https://github.com/user-attachments/assets/8b92f28d-2bfe-45a4-a249-e89eb1c63b1f" />
+<img width="1187" height="418" alt="image" src="https://github.com/user-attachments/assets/0c31f894-b2d0-42f9-92bd-fc41daa83018" />
+
 
 ---
 
@@ -31,7 +32,8 @@ Specifically, our network incorporates three innovations:
 
 Extensive experiments across four COD benchmark datasets validate ARNet's effectiveness and state-of-the-art performance. We further transfer it to the Salient Object Detection (SOD) task and demonstrate our method's exceptional adaptability and versatility across downstream tasks including polyp segmentation, transparent object detection, and industrial/road defect detection.
 
-<img width="1166" alt="image" src="https://github.com/user-attachments/assets/39a22bb7-f7ed-4a07-a239-2173d3482d99" />
+<img width="1180" height="751" alt="image" src="https://github.com/user-attachments/assets/6c0716e1-1c1d-414d-8394-ac85767918b4" />
+
 
 ---
 
@@ -42,7 +44,7 @@ Extensive experiments across four COD benchmark datasets validate ARNet's effect
 
 ---
 
-## 🛠️ Materials & Evaluation
+## 🛠️ Materials and Evaluation
 
 ### Required Materials
 +   **Datasets:** You can find the [training and test datasets](https://github.com/DengPingFan/SINet/) here.
