@@ -85,3 +85,10 @@ Simply execute the `evaluation.py` script to automatically compute and display a
 
 ```bash
 python evaluation.py
+
+Note: You can also modify the mask_root and pred_root variables within the script to evaluate different datasets or methods.
+
+📊 Experimental Results
+<img width="1175" alt="image" src="https://github.com/user-attachments/assets/7cf0b2b0-72d9-4c37-afbb-2d33293f8845" />
+
+<img width="1174" alt="image" src="https://github.com/user-attachments/assets/fa41ad1d-ec99-4160-9b80-018a60c68035" />
