@@ -34,13 +34,18 @@ others packages can be found at requirement.txt
 
   + You can find our [Polyp prediction results (Google Drive)](https://drive.google.com/file/d/1jY4_BzgSZzjrtztGtZt9_PEIqJaFfO0L/view?usp=sharing) at the following link.
 
-  Evaluation Code
-  
+
+# Evaluation Code
+
 We provide a simple evaluation script to reproduce the quantitative results from the paper.
 
-File Structure
+-----
+
+## 📂 File Structure
+
 Please organize your files as follows to run the script without any modifications:
 
+```
 .
 ├── evaluation.py
 ├── TestDataset
@@ -55,17 +60,22 @@ Please organize your files as follows to run the script without any modification
             ├── <pred_1>.png
             ├── <pred_2>.png
             └── ...
-TestDataset/NC4K/GT/: Contains the ground truth masks for the NC4K dataset.
+```
 
-test_maps/ARNet/NC4K/: Contains the predicted maps from our method (ARNet) on the NC4K dataset.
+  - `TestDataset/NC4K/GT/`: Contains the ground truth masks for the NC4K dataset.
+  - `test_maps/ARNet/NC4K/`: Contains the predicted maps from our method (ARNet) on the NC4K dataset.
 
-How to Run
-Simply execute the evaluation.py script to automatically compute and display all evaluation metrics.
+-----
 
-Bash
+## 🚀 How to Run
 
+Simply execute the `evaluation.py` script to automatically compute and display all evaluation metrics.
+
+```bash
 python evaluation.py
-You can also modify the mask_root and pred_root variables within the script to evaluate different datasets or methods.
+```
+
+**Note:** You can also modify the `mask_root` and `pred_root` variables within the script to evaluate different datasets or methods.
 
 ## Experimental results
 
