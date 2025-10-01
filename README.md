@@ -9,7 +9,7 @@
 - [Our Motivation](#-our-motivation)
 - [Overview](#-overview)
 - [Environment](#-environment)
-- [Materials & Evaluation](#-materials-evaluation)
+- [Materials and Evaluation](#-materials-and-evaluation)
 - [Experimental Results](#-experimental-results)
 
 ---
@@ -44,7 +44,7 @@ Extensive experiments across four COD benchmark datasets validate ARNet's effect
 
 ---
 
-## 🛠️ Materials & Evaluation
+## 🛠️ Materials and Evaluation
 
 ### Required Materials
 +   **Datasets:** You can find the [training and test datasets](https://github.com/DengPingFan/SINet/) here.
