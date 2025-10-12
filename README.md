@@ -30,7 +30,7 @@ Camouflaged Object Detection (COD) remains a challenging task in computer vision
 
 To address these challenges, we propose the Assisted Refinement Network (ARNet) — a dual-dimensional collaborative decoding framework that enhances both feature interaction and boundary–region consistency.
 
-🔍 Key Contributions
+### Key Contributions
 
 Channel Information Interaction Module (CIIM)
 Introduces a bidirectional horizontal–vertical integration mechanism at the channel dimension, enabling feature reorganization and interaction across channels to capture complementary cross-channel information effectively.
@@ -41,7 +41,7 @@ Generate boundary priors and object localization maps, respectively, and employ 
 Multi-scale Enhancement (MSE) Module
 Enriches contextual feature representations using a three-branch multi-scale convolution strategy, expanding the receptive field and improving global–local feature integration.
 
-📊 Experimental Results
+### Experimental
 
 Extensive experiments on four COD benchmark datasets demonstrate ARNet’s state-of-the-art performance and strong generalization ability.
 We further transfer ARNet to the Salient Object Detection (SOD) task and validate its adaptability across various downstream applications, including polyp segmentation, transparent object detection, and industrial/road defect detection.
@@ -110,6 +110,7 @@ Note: You can also modify the mask_root and pred_root variables within the scrip
 <img width="1175" alt="image" src="https://github.com/user-attachments/assets/7cf0b2b0-72d9-4c37-afbb-2d33293f8845" />
 
 
+![COD1](https://github.com/user-attachments/assets/c38d73d4-2902-48aa-a37a-2a8de80a3f32)
 
-<img width="882" height="798" alt="image" src="https://github.com/user-attachments/assets/896010df-4c7b-42ea-adde-d951dfeeb94b" />
+
 
