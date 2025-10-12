@@ -1,7 +1,7 @@
 # ARNet-v2
 ### Assisted Refinement Network Based on Channel Information Interaction for Camouflaged and Salient Object Detection
 
-**Authors:** Kuan Wang, Meng-ge Lu, Yanjun Qin and Xiaoming Tao
+**Authors:** Kuan Wang, Yanjun Qin, Meng-ge Lu, Liejun Wang and Xiaoming Tao
 
 ---
 
@@ -23,16 +23,32 @@
 
 ## 📝 Overview
 
-Camouflaged Object Detection (COD) stands as a significant challenge in computer vision, dedicated to identifying and segmenting objects visually highly integrated with their backgrounds. While current mainstream methods have made progress in cross-layer feature fusion, they generally neglect leveraging cross-channel information differences within the same-layer features. Addressing this critical issue, we propose an Assisted Refinement Network (ARNet) with channel information interaction, achieving feature optimization through a dual-dimensional collaborative decoding architecture. 
 
-Specifically, our network incorporates three innovations:
-1.  We design the **Channel Information Interaction Module (CIIM)**, pioneering a bidirectional horizontal-vertical feature integration mechanism at the channel dimension. This captures cross-channel complementary information through feature splitting reorganization.
-2.  To enhance semantic consistency during decoding, we introduce the **Boundary Extraction (BE)** module and **Region Extraction (RE)** module. These generate boundary priors and object localization maps, respectively, and employ Hybrid Guided Attention (HGA) within CIIM to jointly calibrate decoded features for boundary and spatial localization.
-3.  We design a **Multi-scale Enhancement (MSE)** module employing a three-branch multi-scale convolution strategy to simultaneously expand the receptive field and enrich contextual feature representations.
+Camouflaged Object Detection (COD) remains a challenging task in computer vision, aiming to identify and segment objects that are visually integrated with their surroundings. Although existing methods have achieved progress in cross-layer feature fusion, two key issues persist during decoding:
+(1) insufficient cross-channel information interaction within same-layer features, which limits feature expressiveness, and
+(2) ineffective collaborative modeling between boundary and region information, leading to incomplete regions and inaccurate boundaries.
 
-Extensive experiments across four COD benchmark datasets validate ARNet's effectiveness and state-of-the-art performance. We further transfer it to the Salient Object Detection (SOD) task and demonstrate our method's exceptional adaptability and versatility across downstream tasks including polyp segmentation, transparent object detection, and industrial/road defect detection.
+To address these challenges, we propose the Assisted Refinement Network (ARNet) — a dual-dimensional collaborative decoding framework that enhances both feature interaction and boundary–region consistency.
 
-<img width="1180" height="751" alt="image" src="https://github.com/user-attachments/assets/6c0716e1-1c1d-414d-8394-ac85767918b4" />
+🔍 Key Contributions
+
+Channel Information Interaction Module (CIIM)
+Introduces a bidirectional horizontal–vertical integration mechanism at the channel dimension, enabling feature reorganization and interaction across channels to capture complementary cross-channel information effectively.
+
+Boundary Extraction (BE) and Region Extraction (RE) Modules
+Generate boundary priors and object localization maps, respectively, and employ Hybrid Guided Attention (HGA) within CIIM to jointly calibrate decoded features, thereby improving boundary sharpness and spatial localization.
+
+Multi-scale Enhancement (MSE) Module
+Enriches contextual feature representations using a three-branch multi-scale convolution strategy, expanding the receptive field and improving global–local feature integration.
+
+📊 Experimental Results
+
+Extensive experiments on four COD benchmark datasets demonstrate ARNet’s state-of-the-art performance and strong generalization ability.
+We further transfer ARNet to the Salient Object Detection (SOD) task and validate its adaptability across various downstream applications, including polyp segmentation, transparent object detection, and industrial/road defect detection.
+
+
+<img width="1130" height="752" alt="image" src="https://github.com/user-attachments/assets/cd8c5af4-fa67-469c-86d2-fc56ffe44a83" />
+
 
 
 ---
@@ -93,4 +109,7 @@ Note: You can also modify the mask_root and pred_root variables within the scrip
 ## 📊 Experimental Results
 <img width="1175" alt="image" src="https://github.com/user-attachments/assets/7cf0b2b0-72d9-4c37-afbb-2d33293f8845" />
 
-<img width="1174" alt="image" src="https://github.com/user-attachments/assets/fa41ad1d-ec99-4160-9b80-018a60c68035" />
+
+
+<img width="882" height="798" alt="image" src="https://github.com/user-attachments/assets/896010df-4c7b-42ea-adde-d951dfeeb94b" />
+
