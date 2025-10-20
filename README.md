@@ -24,29 +24,6 @@
 ## 📝 Overview
 
 
-Camouflaged Object Detection (COD) remains a challenging task in computer vision, aiming to identify and segment objects that are visually integrated with their surroundings. Although existing methods have achieved progress in cross-layer feature fusion, two key issues persist during decoding:
-(1) insufficient cross-channel information interaction within same-layer features, which limits feature expressiveness, and
-(2) ineffective collaborative modeling between boundary and region information, leading to incomplete regions and inaccurate boundaries.
-
-To address these challenges, we propose the Assisted Refinement Network (ARNet) — a dual-dimensional collaborative decoding framework that enhances both feature interaction and boundary–region consistency.
-
-### Key Contributions
-
-Channel Information Interaction Module (CIIM)
-Introduces a bidirectional horizontal–vertical integration mechanism at the channel dimension, enabling feature reorganization and interaction across channels to capture complementary cross-channel information effectively.
-
-Boundary Extraction (BE) and Region Extraction (RE) Modules
-Generate boundary priors and object localization maps, respectively, and employ Hybrid Guided Attention (HGA) within CIIM to jointly calibrate decoded features, thereby improving boundary sharpness and spatial localization.
-
-Multi-scale Enhancement (MSE) Module
-Enriches contextual feature representations using a three-branch multi-scale convolution strategy, expanding the receptive field and improving global–local feature integration.
-
-### Experimental
-
-Extensive experiments on four COD benchmark datasets demonstrate ARNet’s state-of-the-art performance and strong generalization ability.
-We further transfer ARNet to the Salient Object Detection (SOD) task and validate its adaptability across various downstream applications, including polyp segmentation, transparent object detection, and industrial/road defect detection.
-
-
 <img width="1130" height="752" alt="image" src="https://github.com/user-attachments/assets/cd8c5af4-fa67-469c-86d2-fc56ffe44a83" />
 
 
