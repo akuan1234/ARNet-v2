@@ -39,7 +39,7 @@ We further transfer ARNet to the Salient Object Detection (SOD) task and validat
 
 ## 🎯 Our Motivation
 
-<img width="1187" height="418" alt="image" src="https://github.com/user-attachments/assets/0c31f894-b2d0-42f9-92bd-fc41daa83018" />
+[all1.pdf](https://github.com/user-attachments/files/24075326/all1.pdf)
 
 
 ---
@@ -47,9 +47,9 @@ We further transfer ARNet to the Salient Object Detection (SOD) task and validat
 ## 📝 Overview
 
 
-<img width="1130" height="752" alt="image" src="https://github.com/user-attachments/assets/cd8c5af4-fa67-469c-86d2-fc56ffe44a83" />
+[all1.pdf](https://github.com/user-attachments/files/24075333/all1.pdf)
 
-
+[binary.pdf](https://github.com/user-attachments/files/24075337/binary.pdf)
 
 ---
 
@@ -107,7 +107,8 @@ python evaluation.py
 Note: You can also modify the mask_root and pred_root variables within the script to evaluate different datasets or methods.
 
 ## 📊 Experimental Results
-<img width="1175" alt="image" src="https://github.com/user-attachments/assets/7cf0b2b0-72d9-4c37-afbb-2d33293f8845" />
+
+<img width="1115" height="817" alt="image" src="https://github.com/user-attachments/assets/00e83bf4-bb61-4b46-9983-e9e2232ade8a" />
 
 
 ![COD1](https://github.com/user-attachments/assets/c38d73d4-2902-48aa-a37a-2a8de80a3f32)
