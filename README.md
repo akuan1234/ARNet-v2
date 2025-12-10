@@ -39,7 +39,7 @@ We further transfer ARNet to the Salient Object Detection (SOD) task and validat
 
 ## 🎯 Our Motivation
 
-[all1.pdf](https://github.com/user-attachments/files/24075326/all1.pdf)
+<img width="1720" height="801" alt="image" src="https://github.com/user-attachments/assets/964c73a3-28f0-43bd-89d9-45985a2030d4" />
 
 
 ---
@@ -47,9 +47,11 @@ We further transfer ARNet to the Salient Object Detection (SOD) task and validat
 ## 📝 Overview
 
 
-[all1.pdf](https://github.com/user-attachments/files/24075333/all1.pdf)
+<img width="1584" height="826" alt="image" src="https://github.com/user-attachments/assets/b3cdf857-0aba-4436-8864-a99a5a7624fd" />
 
-[binary.pdf](https://github.com/user-attachments/files/24075337/binary.pdf)
+
+<img width="1615" height="529" alt="image" src="https://github.com/user-attachments/assets/a7b2a482-7edf-46a8-b735-532c155eda9d" />
+
 
 ---
 
