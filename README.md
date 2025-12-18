@@ -2,6 +2,8 @@
 ### Assisted Refinement Network Based on Channel Information Interaction for Camouflaged and Salient Object Detection
 
 **Authors:** Kuan Wang, Yanjun Qin, Meng-ge Lu, Liejun Wang and Xiaoming Tao
+
+[![arXiv]([https://img.shields.io/badge/arXiv-2512.11369-b31b1b.svg)](https://arxiv.org/abs/2512.11369](https://arxiv.org/abs/2512.11369))
 ---
 
 Camouflaged Object Detection (COD) remains a challenging task in computer vision, aiming to identify and segment objects that are visually integrated with their surroundings. Although existing methods have achieved progress in cross-layer feature fusion, two key issues persist during decoding:
