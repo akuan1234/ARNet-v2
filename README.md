@@ -70,6 +70,10 @@ We further transfer ARNet to the Salient Object Detection (SOD) task and validat
     +   [COD Results (Google Drive)]
     +   [SOD Results (Google Drive)]
     +   [Polyp Results (Google Drive)]
+ 
+** To comply with the double - blind review policy, we have temporarily removed the Google Drive sharing link that contains the authors' account information.
+
+
 
 ### Evaluation Script
 We provide a simple script to reproduce the quantitative results.
