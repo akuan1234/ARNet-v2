@@ -1,10 +1,7 @@
 # ARNet-v2
 ### Assisted Refinement Network Based on Channel Information Interaction for Camouflaged and Salient Object Detection
 
-**Authors:** Kuan Wang, Yanjun Qin, Mengge Lu, Liejun Wang and Xiaoming Tao
-
-[![arXiv](https://img.shields.io/badge/arXiv-2512.11369-b31b1b.svg)](https://arxiv.org/abs/2512.11369)
----
+**Authors:** 
 
 Camouflaged Object Detection (COD) remains a challenging task in computer vision, aiming to identify and segment objects that are visually integrated with their surroundings. Although existing methods have achieved progress in cross-layer feature fusion, two key issues persist during decoding:
 (1) insufficient cross-channel information interaction within same-layer features, which limits feature expressiveness, and
@@ -49,10 +46,9 @@ We further transfer ARNet to the Salient Object Detection (SOD) task and validat
 ## 📝 Overview
 
 
-<img width="1584" height="826" alt="image" src="https://github.com/user-attachments/assets/b3cdf857-0aba-4436-8864-a99a5a7624fd" />
 
 
-<img width="1615" height="529" alt="image" src="https://github.com/user-attachments/assets/a7b2a482-7edf-46a8-b735-532c155eda9d" />
+
 
 
 ---
@@ -68,12 +64,12 @@ We further transfer ARNet to the Salient Object Detection (SOD) task and validat
 
 ### Required Materials
 +   **Datasets:** You can find the [training and test datasets](https://github.com/DengPingFan/SINet/) here.
-+   **SMT Weights:** Download from [Google Drive](https://drive.google.com/file/d/1F8E_Ca6nvusNjp0SqWBVyImWsUSMTSN1/view?usp=sharing).
-+   **Pre-trained Model:** Download our weights from [Google Drive](https://drive.google.com/file/d/18xlY7ZtTwPk7MCdYnGMIpj1hafc0GZBq/view?usp=sharing).
++   **SMT Weights:** Download from [Google Drive].
++   **Pre-trained Model:** Download our weights from [Google Drive].
 +   **Prediction Results:**
-    +   [COD Results (Google Drive)](https://drive.google.com/file/d/1mLujes7kTj_6BZrdvfTEGhk4EzN6dttR/view?usp=sharing)
-    +   [SOD Results (Google Drive)](https://drive.google.com/file/d/1yM52z75vYh058-c00wG7dfgtd8-2oVpL/view?usp=sharing)
-    +   [Polyp Results (Google Drive)](https://drive.google.com/file/d/1jY4_BzgSZzjrtztGtZt9_PEIqJaFfO0L/view?usp=sharing)
+    +   [COD Results (Google Drive)]
+    +   [SOD Results (Google Drive)]
+    +   [Polyp Results (Google Drive)]
 
 ### Evaluation Script
 We provide a simple script to reproduce the quantitative results.
@@ -112,10 +108,7 @@ Note: You can also modify the mask_root and pred_root variables within the scrip
 
 ## 📊 Experimental Results
 
-<img width="1115" height="817" alt="image" src="https://github.com/user-attachments/assets/00e83bf4-bb61-4b46-9983-e9e2232ade8a" />
 
-
-![COD1](https://github.com/user-attachments/assets/c38d73d4-2902-48aa-a37a-2a8de80a3f32)
 
 
 
