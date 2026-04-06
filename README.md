@@ -45,8 +45,7 @@ We further transfer ARNet to the Salient Object Detection (SOD) task and validat
 
 ## 📝 Overview
 
-
-
+<img width="1038" height="552" alt="image" src="https://github.com/user-attachments/assets/c9fa74a0-2b30-4443-b08a-1c714f6463e3" />
 
 
 
