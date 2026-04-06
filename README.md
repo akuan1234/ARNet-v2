@@ -64,14 +64,13 @@ We further transfer ARNet to the Salient Object Detection (SOD) task and validat
 
 ### Required Materials
 +   **Datasets:** You can find the [training and test datasets](https://github.com/DengPingFan/SINet/) here.
-+   **SMT Weights:** Download from [Google Drive].
-+   **Pre-trained Model:** Download our weights from [Google Drive].
++   **SMT Weights:** Download from [Google Drive](https://drive.google.com/file/d/1F8E_Ca6nvusNjp0SqWBVyImWsUSMTSN1/view?usp=sharing).
++   **Pre-trained Model:** Download our weights from [Google Drive](https://drive.google.com/file/d/18xlY7ZtTwPk7MCdYnGMIpj1hafc0GZBq/view?usp=sharing).
 +   **Prediction Results:**
-    +   [COD Results (Google Drive)]
-    +   [SOD Results (Google Drive)]
-    +   [Polyp Results (Google Drive)]
- 
-** To comply with the double - blind review policy, we have temporarily removed the Google Drive sharing link that contains the authors' account information.
+    +   [COD Results (Google Drive)](https://drive.google.com/file/d/1mLujes7kTj_6BZrdvfTEGhk4EzN6dttR/view?usp=sharing)
+    +   [SOD Results (Google Drive)](https://drive.google.com/file/d/1yM52z75vYh058-c00wG7dfgtd8-2oVpL/view?usp=sharing)
+    +   [Polyp Results (Google Drive)](https://drive.google.com/file/d/1jY4_BzgSZzjrtztGtZt9_PEIqJaFfO0L/view?usp=sharing)
+
 
 
 
@@ -112,7 +111,6 @@ Note: You can also modify the mask_root and pred_root variables within the scrip
 
 ## 📊 Experimental Results
 
-
-
+<img width="1091" height="592" alt="image" src="https://github.com/user-attachments/assets/69143375-3412-477d-955a-6547e759431a" />
 
 
